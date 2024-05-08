@@ -6,3 +6,9 @@ function writeCards (namesArray, event) {
   return thankYou;
 }
 
+function countDown(initialNumber) {
+  while (initialNumber >= 0) {
+    console.log (initialNumber);
+    initialNumber -= 1;
+  }
+}
